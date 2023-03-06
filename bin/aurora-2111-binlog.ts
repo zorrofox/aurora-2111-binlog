@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
-import { Aurora2111BinglogStack } from '../lib/aurora-2111-binglog-stack';
+import { Aurora2111BinlogStack } from '../lib/aurora-2111-binlog-stack';
 
 const app = new cdk.App();
-new Aurora2111BinglogStack(app, 'Aurora2111BinglogStack', {
+new Aurora2111BinlogStack(app, 'Aurora2111BinlogStack', {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */

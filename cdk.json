@@ -1,5 +1,5 @@
 {
-  "app": "npx ts-node --prefer-ts-exts bin/aurora-2111-binglog.ts",
+  "app": "npx ts-node --prefer-ts-exts bin/aurora-2111-binlog.ts",
   "watch": {
     "include": [
       "**"

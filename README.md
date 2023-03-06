@@ -1,6 +1,6 @@
-# Welcome to your CDK TypeScript project
+# Welcome to Aurora MySQL 2.11.1 Binlog Testing
 
-This is a blank project for CDK development with TypeScript.
+Aurora 2.11.1 is a version of Amazon Aurora MySQL, a relational database management system that is compatible with MySQL. The binlog (short for binary log) is a feature in Aurora that records all changes to the database so they can be replicated to other instances. Testing the binlog in Aurora 2.11.1 can help ensure that changes to the database are being properly recorded and replicated.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
